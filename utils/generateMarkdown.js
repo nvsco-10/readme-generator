@@ -43,7 +43,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-console.log(renderLicenseBadge("MIT License"));
+// console.log(renderLicenseBadge("MIT License"));
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -55,7 +55,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const license = renderLicenseBadge(data.license);
+
   return `# ${data.title}
+${license}
 
 ## Description
 ${data.description}

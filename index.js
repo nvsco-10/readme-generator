@@ -19,6 +19,16 @@ const questions = [
     type: 'input',
     message: "What are the steps required to install your project?"    
     },
+    {
+    name: 'license',
+    type: 'list',
+    message: "Choose a license for your software.",
+    choices: [
+        'MIT License',
+        'Apache 2.0'
+    ]    
+
+    }
 ];
 
 // TODO: Create a function to write README file
