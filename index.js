@@ -23,14 +23,23 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(`${fileName}.md`, data, e => {
+        if(e) {
+            console.log(e + " this is write to file error")
+        }
+    })
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(response => {
-        console.log(response)
+        // console.log(response);
+
+        const markdownData = generateMarkdown(response);
+        // console.log(markdownData);
+
+        writeToFile("test", markdownData);
     })
 }
 
