@@ -12,7 +12,7 @@ const questions = [
     {
     name: 'description',
     type: 'input',
-    message: "Provide a short description of your project."    
+    message: "Provide a description of your project."    
     },
     {
     name: 'install',
@@ -20,15 +20,49 @@ const questions = [
     message: "What are the steps required to install your project?"    
     },
     {
+    name: 'usage',
+    type: 'input',
+    message: "Provide instructions and examples on how to use your application."    
+    },
+    {
+    name: 'contribute',
+    type: 'input',
+    message: "Can other developers contribute to your project? Please povide guidelines for how to do so."    
+    },
+    {
+    name: 'test',
+    type: 'input',
+    message: "Does your application have tests? Please provide examples on how to run them."    
+    },
+    {
     name: 'license',
     type: 'list',
-    message: "Choose a license for your software.",
+    message: "Choose a license for your application.",
     choices: [
+        'Apache 2.0',
+        'BSD 3-Clause',
+        'BSD 2-Clause',
+        'Eclipse Public License 1.0',
+        'GNU GPL v3',
+        'GNU GPL v2',
+        'IBM Public License Version 1.0',
+        'ISC License (ISC)',
         'MIT License',
-        'Apache 2.0'
-    ]    
-
-    }
+        'Mozilla Public License 2.0',
+        'Attribution License (BY)',
+        'Public Domain Dedication and License (PDDL)'
+        ],    
+    },
+    {
+    name: 'username',
+    type: 'input',
+    message: "Enter your GitHub username."    
+    },
+    {
+    name: 'email',
+    type: 'input',
+    message: "Enter your email address."    
+    },
 ];
 
 // TODO: Create a function to write README file

@@ -63,10 +63,36 @@ ${license}
 ## Description
 ${data.description}
 
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
 ## Installation
 ${data.install}
 
-`;
+## Usage
+${data.usage}
+
+## License
+${data.license}
+
+## Contributing
+${data.contribute}
+
+## Tests
+${data.test}
+
+## Questions
+If you have any questions, please don't hesitate to contact me:
+ * Github - [github.com/${data.username}](https://github.com/${data.username})
+ * Email - ${data.email}
+
+`
 }
 
 module.exports = generateMarkdown;
