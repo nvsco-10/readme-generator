@@ -1,8 +1,8 @@
-# Test
+# ddada
 ![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)
 
 ## Description
-test
+dsadad
 
 ## Table of Contents
 * [Description](#description)
@@ -14,22 +14,22 @@ test
 * [Questions](#questions)
 
 ## Installation
-test
+dasdad
 
 ## Usage
-test
+dasdad
 
 ## License
-IBM Public License Version 1.0
+This code is licensed under [IBM Public License Version 1.0](https://opensource.org/licenses/IPL-1.0).
 
 ## Contributing
-test
+dasda
 
 ## Tests
-test
+dada
 
 ## Questions
 If you have any questions, please don't hesitate to contact me:
- * Github - [github.com/nvsco-10](https://github.com/nvsco-10)
- * Email - neemavelasco
+ * Github - [github.com/dasda](https://github.com/dasda)
+ * Email - dasdas
 

@@ -27,7 +27,7 @@ const questions = [
     {
     name: 'contribute',
     type: 'input',
-    message: "Can other developers contribute to your project? Please povide guidelines for how to do so."    
+    message: "Can other developers contribute to your project? Please provide guidelines for how to do so."    
     },
     {
     name: 'test',
@@ -50,7 +50,8 @@ const questions = [
         'MIT License',
         'Mozilla Public License 2.0',
         'Attribution License (BY)',
-        'Public Domain Dedication and License (PDDL)'
+        'Public Domain Dedication and License (PDDL)',
+        'No License'
         ],    
     },
     {

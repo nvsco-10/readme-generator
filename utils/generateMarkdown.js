@@ -40,6 +40,9 @@ function renderLicenseBadge(license) {
     case 'Public Domain Dedication and License (PDDL)':
       return '![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)';
       break;
+    case 'No License':
+      return '';
+      break;
   }
 }
 
@@ -47,18 +50,69 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch(license) {
+    case 'Apache 2.0':
+      return '[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)';
+      break;
+    case 'BSD 3-Clause':
+      return '[BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)';
+      break;
+    case 'BSD 2-Clause':
+      return '[BSD 2-Clause](https://opensource.org/licenses/BSD-2-Clause)';
+      break;  
+    case 'Eclipse Public License 1.0':
+      return '[Eclipse Public License 1.0](https://www.eclipse.org/legal/epl-v10.html)';
+      break;
+    case 'GNU GPL v3':
+      return '[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)';
+      break;
+    case 'GNU GPL v2':
+      return '[GNU GPL v2](https://opensource.org/licenses/gpl-2.0.php)';
+      break;
+    case 'IBM Public License Version 1.0':
+      return '[IBM Public License Version 1.0](https://opensource.org/licenses/IPL-1.0)';
+      break;
+    case 'ISC License (ISC)':
+      return '[ISC License (ISC)](https://www.isc.org/licenses/)';
+      break;
+    case 'MIT License':
+      return '[MIT License](https://mit-license.org/)';
+      break;
+    case 'Mozilla Public License 2.0':
+      return '[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)';
+      break;
+    case 'Attribution License (BY)':
+      return '![Open Data Commons Attribution](https://creativecommons.org/licenses/by/3.0/)';
+      break;
+    case 'Public Domain Dedication and License (PDDL)':
+      return '[Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/1-0/#:~:text=The%20Open%20Data%20Commons%20%E2%80%93%20Public%20Domain%20Dedication,or%20individually.%20Many%20databases%20are%20covered%20by%20copyright.)';
+      break;
+    case 'No License':
+      return '';
+      break;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const link = renderLicenseLink(license);
+
+  if (license === 'No License') {
+    return '';
+  } else {
+    return `This code is licensed under ${link}.`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const license = renderLicenseBadge(data.license);
+  const licenseBadge = renderLicenseBadge(data.license);
+  const licenseStatement = renderLicenseSection(data.license);
 
   return `# ${data.title}
-${license}
+${licenseBadge}
 
 ## Description
 ${data.description}
@@ -79,7 +133,7 @@ ${data.install}
 ${data.usage}
 
 ## License
-${data.license}
+${licenseStatement}
 
 ## Contributing
 ${data.contribute}
