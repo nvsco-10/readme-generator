@@ -27,12 +27,12 @@ const questions = [
     {
     name: 'contribute',
     type: 'input',
-    message: "Can other developers contribute to your project? Please provide guidelines for how to do so."    
+    message: "Please provide guidelines for how others can contribute to your project."    
     },
     {
     name: 'test',
     type: 'input',
-    message: "Does your application have tests? Please provide examples on how to run them."    
+    message: "Provide examples on how to run tests on your application."    
     },
     {
     name: 'license',
