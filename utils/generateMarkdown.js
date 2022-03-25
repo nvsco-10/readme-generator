@@ -1,5 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 // source for license badges and links: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 function renderLicenseBadge(license) {
@@ -48,8 +46,6 @@ function renderLicenseBadge(license) {
 
 // console.log(renderLicenseBadge("MIT License"));
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch(license) {
     case 'Apache 2.0':
@@ -83,7 +79,7 @@ function renderLicenseLink(license) {
       return '[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)';
       break;
     case 'Attribution License (BY)':
-      return '![Open Data Commons Attribution](https://creativecommons.org/licenses/by/3.0/)';
+      return '[Open Data Commons Attribution](https://creativecommons.org/licenses/by/3.0/)';
       break;
     case 'Public Domain Dedication and License (PDDL)':
       return '[Public Domain Dedication and License (PDDL)](https://opendatacommons.org/licenses/pddl/1-0/#:~:text=The%20Open%20Data%20Commons%20%E2%80%93%20Public%20Domain%20Dedication,or%20individually.%20Many%20databases%20are%20covered%20by%20copyright.)';
@@ -94,8 +90,6 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   const link = renderLicenseLink(license);
 
@@ -112,9 +106,10 @@ function generateMarkdown(data) {
   const licenseStatement = renderLicenseSection(data.license);
 
   return `# ${data.title}
-${licenseBadge}
+  ${licenseBadge} 
 
 ## Description
+
 ${data.description}
 
 ## Table of Contents
@@ -141,8 +136,10 @@ ${data.contribute}
 ## Tests
 ${data.test}
 
+<hr>
+
 ## Questions
-If you have any questions, please don't hesitate to contact me:
+If you have any questions, please don't hesitate to contact:
  * Github - [github.com/${data.username}](https://github.com/${data.username})
  * Email - ${data.email}
 

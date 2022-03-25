@@ -1,8 +1,9 @@
-# ddada
-![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)
+# Weather Dashboard
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
 ## Description
-dsadad
+
+A simple weather dashboard that allows a user to search the current and future weather conditions of a given city.
 
 ## Table of Contents
 * [Description](#description)
@@ -14,22 +15,24 @@ dsadad
 * [Questions](#questions)
 
 ## Installation
-dasdad
+Fork the repository and ``` npm init -y ```
 
 ## Usage
-dasdad
+Enter any city name and the weather conditions will be displayed.
 
 ## License
-This code is licensed under [IBM Public License Version 1.0](https://opensource.org/licenses/IPL-1.0).
+This code is licensed under [MIT License](https://mit-license.org/).
 
 ## Contributing
-dasda
+If you would like to contribute to this project, please send an email to test@email.com.
 
 ## Tests
-dada
+No tests as of the moment.
+
+<hr>
 
 ## Questions
-If you have any questions, please don't hesitate to contact me:
- * Github - [github.com/dasda](https://github.com/dasda)
- * Email - dasdas
+If you have any questions, please don't hesitate to contact:
+ * Github - [github.com/test](https://github.com/test)
+ * Email - thisisatest@gmail.com
 
