@@ -1,9 +1,9 @@
 # Weather Dashboard
-  ![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg) 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
 ## Description
 
-A simple weather dashboard that shows the current and future weather conditions of a given city.
+A simple weather app that allows a user to search the current and future weather conditions of a given city.
 
 ## Table of Contents
 * [Description](#description)
@@ -18,13 +18,13 @@ A simple weather dashboard that shows the current and future weather conditions 
 Clone the repository.
 
 ## Usage
-Enter any city name and the weather conditions will be displayed.
+Enter a city and the weather conditions will be displayed.
 
 ## License
-This code is licensed under [BSD 2-Clause](https://opensource.org/licenses/BSD-2-Clause).
+This code is licensed under [MIT License](https://mit-license.org/).
 
 ## Contributing
-If you would like to contribute to this project, please send an email to test@aaa.com.
+If you would like to contribute to this project, please email test@email.com.
 
 ## Tests
 No tests as of the moment.
@@ -34,5 +34,5 @@ No tests as of the moment.
 ## Questions
 If you have any questions, please don't hesitate to contact:
  * Github - [github.com/testuser](https://github.com/testuser)
- * Email - testuser@aaa.com
+ * Email - test@user.com.
 
