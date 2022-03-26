@@ -44,7 +44,6 @@ function renderLicenseBadge(license) {
   }
 }
 
-// console.log(renderLicenseBadge("MIT License"));
 
 function renderLicenseLink(license) {
   switch(license) {
@@ -100,7 +99,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
   const licenseStatement = renderLicenseSection(data.license);
