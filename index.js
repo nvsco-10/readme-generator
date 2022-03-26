@@ -81,6 +81,7 @@ function init() {
         const markdownData = generateMarkdown(response);
         // console.log(markdownData);
 
+        // rename this test README file
         writeToFile("test", markdownData);
     })
 }

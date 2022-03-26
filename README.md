@@ -40,6 +40,18 @@
     <img src="assets/img/sampleREADME.PNG" alt="screenshot of generated readme" height="600px">
 </p>
 
+<br>
+<p align="center">
+    <i>Walkthrough video</i>
+</p>
+<br>
+
+<p align="center">
+    <img src="assets/vid/walkthrough.gif" alt="walkthrough of readme generator" height="400px">
+</p>
+
+<br>
+
 ## License
 
 This code is licensed under the [MIT License](https://mit-license.org/).
