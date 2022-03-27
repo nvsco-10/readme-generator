@@ -47,7 +47,7 @@
 <br>
 
 <p align="center">
-    <img src="assets/vid/walkthrough.gif" alt="walkthrough of readme generator" height="400px">
+    https://user-images.githubusercontent.com/97539424/160262160-00424483-a030-4c09-aec7-60650857727c.mp4
 </p>
 
 <br>
@@ -62,6 +62,10 @@ This code is licensed under the [MIT License](https://mit-license.org/).
 ## Questions
 If you have any questions, please don't hesitate to contact:
  * Email - neemavelasco@gmail.com
+
+
+
+
 
 
 
