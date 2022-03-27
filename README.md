@@ -46,9 +46,7 @@
 </p>
 <br>
 
-<p align="center">
-    https://user-images.githubusercontent.com/97539424/160262160-00424483-a030-4c09-aec7-60650857727c.mp4
-</p>
+https://user-images.githubusercontent.com/97539424/160262160-00424483-a030-4c09-aec7-60650857727c.mp4
 
 <br>
 
